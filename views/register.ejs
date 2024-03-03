@@ -1,0 +1,30 @@
+
+
+<form action="" methode="POST" enctype="multipart/form-data">
+
+    <h1>Register</h1>
+  
+    <input type="text" id="fname" name="name" placeholder="Enter name" required><br><br>
+   
+    <input type="email" id="email" name="email" placeholder="Enter email" required><br><br>
+
+    <input type="file" id="file" name="image"  required><br><br>
+
+    <input type="password" id="password" name="image" placeholder="Enter password" required><br><br>
+
+    <input type="submit" value="register">
+  </form> 
+
+  
+  
+  <%
+
+
+  if(typeof message !=='undefined'){
+    %>
+      <p style="color:green;"><%= message %></p>
+    <%
+  }
+
+
+  %>
